@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/321b1641ed.js"
+      crossorigin="anonymous"
+      src="main.js"
+    ></script>
+</head>
+
+<body>
+
+<!--Menu Bar with Drop Down Selection-->
+
+<header class="header">
+<h1>The Daily Beagle</h1>
+<p>Where real news happens</p>
+</header>
+
+<ul>
+    <li class = "dropdown">
+      <a href="index.html">Home</a>
+      <div class="dropdown-content">
+        <a href="#">World News</a>
+        <a href="#">National News</a>
+        <a href="#">Local News</a>
+        <a href="#">About Us</a>
+
+    </li>
+    
+
+    <li class ="dropdown">
+      <a href="worldnews.html">World News</a>
+      <div class="dropdown-content">
+        <a href="#">Europe</a>
+        <a href="#">Asia</a>
+        <a href="#">Africa</a>
+        <a href="#">Americas</a>
+      </div>
+    </li>
+    
+  <li class="dropdown">
+      <a href="nationalnews.html">National News</a>
+    <div class="dropdown-content">
+      <a href="#">Politics</a>
+      <a href="#">Business</a>
+      <a href="#">Technology</a>
+    </div>
+  </li>
+   
+  <li class="dropdown">
+      <a href="localnews.html" class="dropbtn">Local News</a>
+      <div class="dropdown-content">
+        <a href="#">Sports</a>
+        <a href="#">Crime</a>
+        <a href="#">Business</a>
+      </div>
+    </li>
+
+    <li>
+      <a href="about.html">About Us</a>
+    </li>
+
+  </ul>
+
+<!--Slideshow / Carousel of major headlines-->
+
+  <div class="slideshow-container" >
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/chinaflooding.jpg" style="width:100%">
+      <div class="text">Flooding in Asia</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/USAinvasion.jpg" style="width:100%">
+      <div class="text">US Army Prepares for Invasion of Izaq</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/Africavoting.jpg" style="width:100%">
+      <div class="text">Elections in Niger</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+</div>
+
+<!--JS for Slideshow / Carousel headlines-->
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<!--Column headlines-->
+
+<div class="row">
+
+    <section class="column left">
+    <h2>Section 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</</p>
+    </section>
+
+    <section class="column middle">
+    <h2>Main Headline</h2>
+    <img src="images/yellowhammer.jpg" alt="Italian Trulli">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    </section>
+
+    <section class="column right">
+    <h2>List of news</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+    </section>
+
+</div>
+
+
+
+
+
+<footer class="footer">
+<h1>Footer</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+</footer>
+
+</body>
