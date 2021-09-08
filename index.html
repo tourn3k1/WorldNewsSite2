@@ -25,10 +25,10 @@
     <li class = "dropdown">
       <a href="index.html">Home</a>
       <div class="dropdown-content">
-        <a href="#">World News</a>
-        <a href="#">National News</a>
-        <a href="#">Local News</a>
-        <a href="#">About Us</a>
+        <a href="worldnews.html">World News</a>
+        <a href="localnews.html">Local News</a>
+        <a href="localnews.html">Travel</a>
+        <a href="about.html">About Us</a>
       </div>
 
     </li>
@@ -37,36 +37,39 @@
     <li class ="dropdown">
       <a href="worldnews.html">World News</a>
       <div class="dropdown-content">
-        <a href="#">Europe</a>
-        <a href="#">Asia</a>
-        <a href="#">Africa</a>
-        <a href="#">Americas</a>
+        <a href="worldnews.html">Europe</a>
+        <a href="worldnews.html">Asia</a>
+        <a href="worldnews.html">Africa</a>
+        <a href="worldnews.html">Americas</a>
+      </div>
+    </li>
+
+    <li class="dropdown">
+      <a href="localnews.html" class="dropbtn">Local News</a>
+      <div class="dropdown-content">
+        <a href="localnews.html">Sports</a>
+        <a href="localnews.html">Crime</a>
+        <a href="localnews.html">Business</a>
       </div>
     </li>
     
   <li class="dropdown">
-      <a href="nationalnews.html">National News</a>
+      <a href="nationalnews.html">Travel</a>
     <div class="dropdown-content">
-      <a href="#">Politics</a>
-      <a href="#">Business</a>
-      <a href="#">Technology</a>
+      <a href="nationalnews.html">United States</a>
+      <a href="nationalnews.html">Asia</a>
+      <a href="nationalnews.html">South America</a>
     </div>
   </li>
    
-  <li class="dropdown">
-      <a href="localnews.html" class="dropbtn">Local News</a>
-      <div class="dropdown-content">
-        <a href="#">Sports</a>
-        <a href="#">Crime</a>
-        <a href="#">Business</a>
-      </div>
-    </li>
+
 
     <li>
       <a href="about.html">About Us</a>
     </li>
 
   </ul>
+
 
 
 <!--Slideshow / Carousel of major headlines-->
@@ -133,10 +136,12 @@ function showSlides() {
 
 <div class="row">
 
+  <section class="column">
+
     <section class="column left">
     <h2>Stock at Record High</h2>
     <img src="Images/stockmarket.jpg" alt="Italian Trulli" style="width:100%">
-    <audio class="player1" controls>
+    <audio class="player1" controls style="width:100%">
       <source src="Sound/stock1.mp3" type="audio/ogg">
     Your browser does not support the audio element.
     </audio>
@@ -155,15 +160,15 @@ function showSlides() {
     <section class="column right">
     <h2>MLB Highlights</h2>
 
-    <video class="player1" controls>
-      <source src="Video/baseball1.mp4" type="video/mp4">
+    <video class="player1" style="width:100%" controls>
+      <source src="Video/baseball1.mp4" type="video/mp4" >
       Your browser does not support the video tag.
     </video>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
     </section>
 
-
+</section>
 
 </div>
 
