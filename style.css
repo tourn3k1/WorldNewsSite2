@@ -78,38 +78,27 @@ nav a {
 
 /*Media Query*/
 
-
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .column.left {
     width: 100%;
-    height: auto;
-  
   }
+}
 
-
-
-  @media (max-width: 600px) {
-    .column.right{
-      width: 100%;
-      height: auto;
-  
-    
-    }
-
-    @media (max-width: 600px) {
-      .column.middle{
-        width: 100%;
-        height: auto;
-      
-      }
-
-      @media (max-width: 600px) {
-        .column.middle{
-          width: 100%;
-          height: auto;
-        
-        
-        }
+@media screen and (max-width: 600px) {
+  .column.right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column.middle {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column.half {
+    width: 100%;
+  }
+}
 
 
 .footer {
