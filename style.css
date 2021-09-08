@@ -268,7 +268,7 @@ li.dropdown {
 /* Caption text */
 .text {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 4em;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -279,7 +279,7 @@ li.dropdown {
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 1em;
   padding: 8px 12px;
   position: absolute;
   top: 0;
