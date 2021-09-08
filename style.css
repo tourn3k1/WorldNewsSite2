@@ -76,55 +76,40 @@ nav a {
   border: .01px solid black;
 }
 
-/*
+/*Media Query*/
+
+
 @media (max-width: 600px) {
-  .column.left{
+  .column.left {
     width: 100%;
     height: auto;
+  
   }
+
+
 
   @media (max-width: 600px) {
     .column.right{
       width: 100%;
       height: auto;
+  
+    
     }
 
     @media (max-width: 600px) {
       .column.middle{
         width: 100%;
         height: auto;
+      
       }
 
-@media (max-width: 600px) {
-.column.half{
-width: 100%;
- height: auto;
-}
-  
-@media only screen and (min-width: 601px) {
-  .column.left{
-    width: 50%;
-    height: auto;
-    }
-}
-
-@media only screen and (min-width: 601px) {
-  .column.right{
-    width: 50%;
-    height: auto;
-  }
-}
-    
-
-@media only screen and (min-width: 601px) {
-  .column.middle{
-    width: 50%;
-    height: auto;
-  }
-}
-*/
-    
-
+      @media (max-width: 600px) {
+        .column.middle{
+          width: 100%;
+          height: auto;
+        
+        
+        }
 
 
 .footer {
@@ -352,9 +337,11 @@ li.dropdown {
 
 /*Slideshow home page(above)*/
 
-.row::after {
+
+.row:after {
   content: "";
   display: table;
   clear: both;
 }
+
 
