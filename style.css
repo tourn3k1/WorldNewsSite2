@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+.body1 {
+  font-family: "Lucida Console", Times, serif;
+}
 
 .header {
     color:white;
@@ -32,6 +35,8 @@ nav a {
   float:left;
   position: relative;
   background: rgb(253, 253, 253);
+  font-size:large;
+  text-align: center;
 
  
 }
@@ -269,6 +274,7 @@ li.dropdown {
 .text {
   color: #ffffff;
   font-size: 4em;
+  text-shadow: 4px 4px #070000;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
