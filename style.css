@@ -24,6 +24,8 @@
   /*position:absolute;*/
   font-size:60px;color:rgb(255, 255, 255);
   text-shadow: 4px 4px #000000;
+  animation: mymove 1s;
+
   /*left: 50px;
   top: 70px;
   margin:1em;
@@ -139,6 +141,15 @@ nav a {
 
   }
 
+  .head1 {
+  
+
+
+}
+
+@keyframes mymove {
+  50% {transform: rotate(360deg);}
+}
 }
 
 
