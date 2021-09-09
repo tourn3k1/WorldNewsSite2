@@ -16,9 +16,22 @@
     /*background-image: linear-gradient(to top, rgba(0, 0, 0,1), rgb(167, 0, 0,.7))*/
     border-radius: 10px 10px 0px 0px ;
     background-image: linear-gradient(to top, rgba(70, 70, 70, 1), rgba(0, 0, 0, 1))
+    
     /*border-radius: 25px 25px 0px 0px ;*/
+}
 
 
+.footer {
+  color: white;
+  background-color: #333;
+  text-align: center;
+  padding: 2px;
+  font-size:1.2em;
+  border-top: 2px solid red;
+  /*background-image: linear-gradient(black, rgb(158, 158, 158));*/
+  /*background-image: linear-gradient(to top, rgba(0, 0, 0,1), rgb(167, 0, 0,.7))*/
+  border-radius: 0px 0px 10px 10px ;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(70, 70, 70, 1))
 }
 
 
@@ -40,6 +53,13 @@
   margin:1em;
   padding:50px;*/
 
+}
+
+.footer1 {
+  float:center;
+  /*position:absolute;*/
+  font-size:60px;color:rgb(255, 255, 255);
+  text-shadow: 4px 4px #000000;
 }
 
 .head2 {
@@ -71,6 +91,8 @@ nav a {
   text-align: center;
   text-shadow: 2px 2px #b6b6b6;
   color:rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ padding:1em;
 
  
 }
@@ -137,20 +159,20 @@ nav a {
     width:100%;
   }
 
-
-  /*
-  .head1 {
-    /*display: none;
-    float:center;
-    position:absolute;
-
-  }
-  */
-
   .head2 {
     display:none;
 
   }
+
+  .column6 {
+    width:100%
+  }
+
+  .modal {
+    width:100%
+  }
+
+
 
 @keyframes mymove {
   50% {transform: rotate(360deg);}
@@ -158,14 +180,6 @@ nav a {
 }
 
 
-
-.footer {
-    color: white;
-    background-color: #333;
-    text-align: center;
-    padding: 2px;
-    font-size:1.2em;
-}
 
 /* Accounts Sign In Page */
 
@@ -302,11 +316,13 @@ li.dropdown {
   max-width: 750px;
   position: relative;
   margin: auto;
+  
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Next & previous buttons */
@@ -540,25 +556,15 @@ span.psw {
 }
 
 .column6 {
- 
+  width: 100%;
   padding:50px;
   text-align:center;
   border: .01px solid black;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: auto;
-  width: 50%;
+
   
 
  
 }
-
-
-
-@media screen and (max-width: 600px) {
-
-  
-    .column5 {
-      width:100%;
-    }
-  }
