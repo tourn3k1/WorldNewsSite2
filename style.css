@@ -98,6 +98,10 @@ nav a {
   .column.half {
     width: 100%;
   }
+
+  .column5 {
+    width:100%;
+  }
 }
 
 
@@ -461,21 +465,19 @@ span.psw {
 }
 
 .column5 {
-  max-width: 50%;
+  width: 50%;
   float:left;
-  margin:auto;
-  padding:1em;
-  font-size:large;
-  background: rgb(253, 253, 253);
+  padding:16px;
   text-align:center;
   display: table-cell;
   border: .01px solid black;
-
- 
+  position:relative;
 }
 
 @media screen and (max-width: 600px) {
-  .column5 {
-    width: 100%;
+
+  
+    .column5 {
+      width:100%;
+    }
   }
-}
