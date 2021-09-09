@@ -412,7 +412,7 @@ li.dropdown {
 
 /* Slideshow container */
 .slideshow-container {
-  padding-top: 25px;
+  padding-top: px;
   max-width: 750px;
   position: relative;
   margin: auto;
@@ -435,10 +435,12 @@ li.dropdown {
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 2em;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  
+
 }
 
 /* Position the "next button" to the right */
@@ -664,7 +666,7 @@ span.psw {
   margin: auto;
   border: 1px solid black;
 
-  
 
  
 }
+
