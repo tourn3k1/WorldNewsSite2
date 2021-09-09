@@ -32,8 +32,8 @@
   /*background-image: linear-gradient(to top, rgba(0, 0, 0,1), rgb(167, 0, 0,.7))*/
   border-radius: 0px 0px 10px 10px ;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(70, 70, 70, 1))
+  
 }
-
 
 
 .fas {
@@ -88,7 +88,6 @@ nav a {
   background: rgb(253, 253, 253);
   font-size:large;
   text-align: center;
-  text-shadow: 2px 2px #b6b6b6;
   color:rgb(0, 0, 0);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  padding:1em;
@@ -114,8 +113,9 @@ nav a {
   float: left;
   display: table-cell;
   padding: 16px;
-  width: 30%;
+  width: 29%;
   border: .01px solid black;
+  margin:3px;
   
 
 }
@@ -124,8 +124,9 @@ nav a {
   float: left;
   display: table-cell;
   padding: 16px;
-  width: 40%;
+  width: 39%;
   border: .01px solid black;
+  margin:3px;
   
 
 }
@@ -134,20 +135,35 @@ nav a {
   float: left;
   display: table-cell;
   padding: 16px;
-  width: 30%;
+  width: 29%;
   border: .01px solid black;
+  margin:3px;
+ 
 
   
 
 }
 
-.column.half {
+.column.half1 {
   float: left;
   display: table-cell;
   padding: 16px;
-  width: 50%;
+  width: 66%;
   border: .01px solid black;
+  margin:2px;
 }
+
+
+.column.half2 {
+  float: left;
+  display: table-cell;
+  padding: 16px;
+  width: 33%;
+  border: .01px solid black;
+  margin:2px;
+}
+
+
 
 /*Media Query*/
 
@@ -164,7 +180,11 @@ nav a {
     width: 100%;
   }
 
-  .column.half {
+  .column.half1 {
+    width: 100%;
+  }
+
+  .column.half2 {
     width: 100%;
   }
 
