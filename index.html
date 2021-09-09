@@ -28,7 +28,7 @@
   <div class="head2">
 
     <h1>The Daily Beagle</h1>
-    <p>Where real news happens</p>
+    <p>Long Beach's Premier Newsletter</p>
   </div>
 
 </header>
@@ -66,11 +66,11 @@
     </li>
     
   <li class="dropdown">
-      <a href="nationalnews.html">Travel</a>
+      <a href="nationalnews.html">Real Estate</a>
     <div class="dropdown-content">
-      <a href="nationalnews.html">United States</a>
-      <a href="nationalnews.html">Asia</a>
-      <a href="nationalnews.html">South America</a>
+      <a href="nationalnews.html">North LB</a>
+      <a href="nationalnews.html">East LB</a>
+      <a href="nationalnews.html">Downtown LB</a>
     </div>
   </li>
    
@@ -84,13 +84,12 @@
       <a href="login.html">Log In</a>
     </li>
 
+</ul>
 
-  </ul>
 
-
+  
 <div class="row">
 <div class="column">
-
 
 <!--Slideshow / Carousel of major headlines-->
 
@@ -199,7 +198,36 @@ function showSlides() {
 <div class ="footer footer1">
 <h1>Footer</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+<body onload="startTime()" >
+  <p>PST
+  <div id="txt"></div>
+  </p>
 </div>
+
+
+<
+  <body>
+
+    <script>
+    function startTime() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+      setTimeout(startTime, 1000);
+    }
+    
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+    </script>
+    
+    </body>
+
 </footer>
 
 </body>

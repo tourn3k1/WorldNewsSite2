@@ -66,6 +66,27 @@
   text-shadow: 4px 4px #000000;
 }
 
+
+.txt1 {
+ display:block;
+ float:right;
+ color:rgb(0, 0, 0);
+ padding: 1em;
+}
+
+.txt2 {
+  float:center;
+  color:rgb(0, 0, 0);
+  font-size: 2em;
+  padding:1em;
+  border:1px solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+ }
+ 
+
+
 .nav {
     overflow: hidden;
     background-color: #333;
@@ -96,6 +117,18 @@ nav a {
  
 }
 
+.column11 {
+  float:left;
+  position: relative;
+  background: rgb(253, 253, 253);
+  text-align: center;
+  color:rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ padding:1em;
+
+ 
+}
+
 
 .column01 {
   float:center;
@@ -115,7 +148,7 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 29%;
-
+  border: .01px solid black;
   margin:3px;
   
 
@@ -126,7 +159,7 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 39%;
-
+  border: .01px solid black;
   margin:3px;
   
 
@@ -137,7 +170,7 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 29%;
-
+  border: .01px solid black;
   margin:3px;
  
 
@@ -150,7 +183,7 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 66%;
-  /*border: .01px solid black;*/
+  border: .01px solid black;
   margin:2px;
 
 }
@@ -161,8 +194,20 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 33%;
-
+  border: .01px solid black;
   margin:2px;
+
+}
+
+
+.column.half3 {
+  float: left;
+  display: table-cell;
+  padding: 16px;
+  width: 33%;
+  border: .01px solid black;
+  margin:2px;
+  text-align: left;
 
 }
 
@@ -190,6 +235,11 @@ nav a {
   .column.half2 {
     width: 100%;
   }
+
+  .column.half3 {
+    width: 100%;
+  }
+
 
   .column5 {
     width:100%;
@@ -261,7 +311,7 @@ input[type=submit]:hover{
 div.gallery {
     float: left;
     margin: 20px;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     width: 250px;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     box-shadow: 10px 10px 5px grey;
@@ -275,7 +325,7 @@ div.gallery hover {
 
 div.gallery img {
     width: 100%;
-    height: 15em;
+    height: 13em;
     
 }
 
