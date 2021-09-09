@@ -109,13 +109,27 @@ nav a {
   position: relative;
   background: rgb(253, 253, 253);
   font-size:large;
-  text-align: center;
+
   color:rgb(0, 0, 0);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  padding:1em;
 
  
 }
+
+.column1 {
+  float:left;
+  position: relative;
+  background: rgb(253, 253, 253);
+
+  color:rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ padding:1em;
+
+ 
+}
+
+
 
 .column11 {
   float:left;
