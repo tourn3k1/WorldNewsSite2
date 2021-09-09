@@ -539,6 +539,18 @@ span.psw {
   position:relative;
 }
 
+.column6 {
+  width: 50%;
+  float:left;
+  padding:16px;
+  text-align:center;
+  display: table-cell;
+  border: .01px solid black;
+  position:relative;
+}
+
+
+
 @media screen and (max-width: 600px) {
 
   

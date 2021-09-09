@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/321b1641ed.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+
+<body>
+
+<header class="header">
+<h1>About Us</h1>
+<p>Where real news happens</p>
+</header>
+
+<ul>
+    <li class = "dropdown">
+      <a href="index.html">Home</a>
+      <div class="dropdown-content">
+        <a href="#">World News</a>
+        <a href="#">National News</a>
+        <a href="#">Local News</a>
+        <a href="#">About Us</a>
+
+    </li>
+    
+
+    <li class ="dropdown">
+      <a href="worldnews.html">World News</a>
+      <div class="dropdown-content">
+        <a href="#">Europe</a>
+        <a href="#">Asia</a>
+        <a href="#">Africa</a>
+        <a href="#">Americas</a>
+      </div>
+    </li>
+    
+  <li class="dropdown">
+      <a href="nationalnews.html">National News</a>
+    <div class="dropdown-content">
+      <a href="#">Politics</a>
+      <a href="#">Business</a>
+      <a href="#">Technology</a>
+    </div>
+  </li>
+   
+  <li class="dropdown">
+      <a href="localnews.html" class="dropbtn">Local News</a>
+      <div class="dropdown-content">
+        <a href="#">Sports</a>
+        <a href="#">Crime</a>
+        <a href="#">Business</a>
+      </div>
+    </li>
+
+    <li>
+      <a href="About.html">About Us</a>
+    </li>
+
+  </ul>
+
+<div class="row">
+
+
+  <div class="column6">
+
+  <h2>Personal Account Login</h2>
+
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In</button>
+  
+  <div id="id01" class="modal">
+    
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+
+
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+
+
+</div>
+
+</div>
+
+
+<footer class="footer">
+<h1>Footer</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+</footer>
+
+</body>
