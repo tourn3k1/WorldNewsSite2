@@ -204,20 +204,29 @@ input[type=submit]:hover{
 
 /*Travel Page*/
 
+.gallery1 {
+  float:left;
+}
+
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    margin: 20px;
+    border: 2px solid #ccc;
+    width: 250px;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 10px 10px 5px grey;
+    text-align: center;
 }
 
 div.gallery hover {
     border: 1px solid #777;
+
 }
 
 div.gallery img {
     width: 100%;
-    height: auto;
+    height: 15em;
+    
 }
 
 div.desc {
