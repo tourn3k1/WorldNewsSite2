@@ -540,13 +540,14 @@ span.psw {
 }
 
 .column6 {
-  width: 50%;
-  float:left;
-  padding:16px;
+ 
+  padding:10px;
   text-align:center;
-  display: table-cell;
-  border: .01px solid black;
-  position:relative;
+  border: 1px solid black;
+  margin: auto;
+  width: 50%;
+
+ 
 }
 
 
