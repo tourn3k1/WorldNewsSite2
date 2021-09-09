@@ -3,6 +3,7 @@
 }
 .body1 {
   font-family: "Lucida Console", Times, serif;
+
 }
 
 .header {
@@ -151,6 +152,7 @@ nav a {
   width: 66%;
   border: .01px solid black;
   margin:2px;
+
 }
 
 
@@ -161,6 +163,7 @@ nav a {
   width: 33%;
   border: .01px solid black;
   margin:2px;
+
 }
 
 
