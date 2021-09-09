@@ -14,10 +14,14 @@
     border-bottom: 2px solid red;
     /*background-image: linear-gradient(black, rgb(158, 158, 158));*/
     /*background-image: linear-gradient(to top, rgba(0, 0, 0,1), rgb(167, 0, 0,.7))*/
+    border-radius: 25px 25px 0px 0px ;
     background-image: linear-gradient(to top, rgba(70, 70, 70, 1), rgba(0, 0, 0, 1))
+    /*border-radius: 25px 25px 0px 0px ;*/
 
 
 }
+
+
 
 .fas {
   color:rgb(255, 255, 255);
@@ -65,6 +69,8 @@ nav a {
   background: rgb(253, 253, 253);
   font-size:large;
   text-align: center;
+  text-shadow: 2px 2px #b6b6b6;
+  color:rgb(0, 0, 0);
 
  
 }
@@ -249,6 +255,8 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
   display: inline-block;
+  text-shadow: 2px 2px #000000;
+  
 }
 
 .dropdown-content {
@@ -258,6 +266,7 @@ li.dropdown {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  text-shadow: 2px 2px #ffffff;
 }
 
 .dropdown-content a {
