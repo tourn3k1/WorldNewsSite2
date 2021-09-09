@@ -141,12 +141,6 @@ nav a {
 
   }
 
-  .head1 {
-  
-
-
-}
-
 @keyframes mymove {
   50% {transform: rotate(360deg);}
 }
