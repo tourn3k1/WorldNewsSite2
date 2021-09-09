@@ -13,7 +13,8 @@
     font-Size: 1.5em;
     border-bottom: 2px solid red;
     /*background-image: linear-gradient(black, rgb(158, 158, 158));*/
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgb(124, 32, 32))
+    /*background-image: linear-gradient(to top, rgba(0, 0, 0,1), rgb(167, 0, 0,.7))*/
+    background-image: linear-gradient(to top, rgba(70, 70, 70, 1), rgba(0, 0, 0, 1))
 
 
 }
@@ -124,11 +125,6 @@ nav a {
   }
 
 
-
-}
-
-@media screen and (max-width: 800px) {
-
   /*
   .head1 {
     /*display: none;
@@ -142,7 +138,8 @@ nav a {
     display:none;
 
   }
-  }
+
+}
 
 
 
