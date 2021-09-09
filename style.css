@@ -86,23 +86,20 @@ nav a {
   .column.left {
     width: 100%;
   }
-}
 
-@media screen and (max-width: 600px) {
   .column.right {
     width: 100%;
   }
-}
-@media screen and (max-width: 600px) {
+
   .column.middle {
     width: 100%;
   }
-}
-@media screen and (max-width: 600px) {
+
   .column.half {
     width: 100%;
   }
 }
+
 
 
 .footer {
@@ -471,5 +468,14 @@ span.psw {
   font-size:large;
   background: rgb(253, 253, 253);
   text-align:center;
+  display: table-cell;
+  border: .01px solid black;
+
  
+}
+
+@media screen and (max-width: 600px) {
+  .column5 {
+    width: 100%;
+  }
 }
