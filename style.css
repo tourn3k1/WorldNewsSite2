@@ -136,7 +136,7 @@ nav a {
   position: relative;
   background: rgb(253, 253, 253);
   text-align: center;
-  color:rgb(0, 0, 0);
+  border: 1px solid rgb(190, 190, 190);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  padding:1em;
 
@@ -162,7 +162,7 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 29%;
-  border: .01px solid black;
+  border: 1px solid rgb(190, 190, 190);
   margin:3px;
   
 
@@ -173,7 +173,7 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 39%;
-  border: .01px solid black;
+  border: 1px solid rgb(190, 190, 190);
   margin:3px;
   
 
@@ -184,7 +184,7 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 29%;
-  border: .01px solid black;
+  border: 1px solid rgb(190, 190, 190);
   margin:3px;
  
 
@@ -197,7 +197,7 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 66%;
-  border: .01px solid black;
+  border: 1px solid rgb(190, 190, 190);
   margin:2px;
 
 }
@@ -208,7 +208,7 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 33%;
-  border: .01px solid black;
+  border: 1px solid rgb(190, 190, 190);
   margin:2px;
 
 }
@@ -219,7 +219,7 @@ nav a {
   display: table-cell;
   padding: 16px;
   width: 33%;
-  border: .01px solid black;
+  border: 1px solid rgb(190, 190, 190);
   margin:2px;
   text-align: left;
 
@@ -653,7 +653,7 @@ span.psw {
   padding:16px;
   text-align:center;
   display: table-cell;
-  border: .01px solid black;
+  border: 1px solid rgb(190, 190, 190);
   position:relative;
 }
 
@@ -664,7 +664,7 @@ span.psw {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: auto;
-  border: 1px solid black;
+  border: 1px solid rgb(190, 190, 190);
 
 
  
