@@ -671,6 +671,7 @@ span.psw {
   border: 1px solid rgb(190, 190, 190);
   position:relative;
   color:rgb(63, 63, 63);
+  border-radius: 5px 5px 5px 5px ;
 }
 
 .column6 {
@@ -682,6 +683,8 @@ span.psw {
   margin: auto;
   border: 1px solid rgb(190, 190, 190);
   color:rgb(63, 63, 63);
+  border-radius: 5px 5px 5px 5px ;
+  
 
 
  
