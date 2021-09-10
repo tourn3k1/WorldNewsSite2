@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 .body1 {
-  font-family: "Lucida Console", Times, serif;
+  font-family:Times, serif;
+
 
 }
 
@@ -110,9 +111,10 @@ nav a {
   background: rgb(253, 253, 253);
   font-size:large;
 
-  color:rgb(0, 0, 0);
+  color:rgb(63, 63, 63);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  padding:1em;
+
 
  
 }
@@ -121,8 +123,7 @@ nav a {
   float:left;
   position: relative;
   background: rgb(253, 253, 253);
-
-  color:rgb(0, 0, 0);
+  color:rgb(63, 63, 63);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  padding:1em;
 
@@ -139,6 +140,7 @@ nav a {
   border: 1px solid rgb(190, 190, 190);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  padding:1em;
+ color:rgb(63, 63, 63);
 
  
 }
@@ -150,7 +152,7 @@ nav a {
   background: rgb(253, 253, 253);
   font-size:large;
   text-align: center;
-  color:rgb(0, 0, 0);
+  color:rgb(63, 63, 63);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  padding:1em;
 
@@ -165,6 +167,7 @@ nav a {
   border: 1px solid rgb(190, 190, 190);
   margin:3px;
   text-align: center;
+  color:rgb(63, 63, 63);
 
 }
 
@@ -176,6 +179,7 @@ nav a {
   border: 1px solid rgb(190, 190, 190);
   margin:3px;
   text-align: center;
+  color:rgb(63, 63, 63);
 
 }
 
@@ -187,6 +191,7 @@ nav a {
   border: 1px solid rgb(190, 190, 190);
   margin:3px;
   text-align: center;
+  color:rgb(63, 63, 63);
  
 
   
@@ -659,6 +664,7 @@ span.psw {
   display: table-cell;
   border: 1px solid rgb(190, 190, 190);
   position:relative;
+  color:rgb(63, 63, 63);
 }
 
 .column6 {
@@ -669,6 +675,7 @@ span.psw {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: auto;
   border: 1px solid rgb(190, 190, 190);
+  color:rgb(63, 63, 63);
 
 
  
