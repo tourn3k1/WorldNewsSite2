@@ -4,13 +4,17 @@
 .body1 {
   font-family:Times, serif;
   max-width: 960px;
+  margin:0;
 }
+
+/*--------------Header/Footer---------------*/
+
 
 .header {
     color:white;
     background-color:black;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-Size: 1.5em;
     border-bottom: 2px solid red;
     border-left:2px solid rgb(20, 20, 20);
@@ -53,6 +57,18 @@
   text-shadow: 4px 4px #000000;
 }
 
+/*--------------Navigation Bar---------------*/
+
+/*Menu bar float if want*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
 .txt1 {
  display:block;
  float:right;
@@ -84,6 +100,10 @@ nav a {
     text-decoration: none;
     font-size: 1.5em;
 }
+
+
+/*--------------Columns---------------*/
+
 
 .column {
   float:left;
@@ -239,24 +259,27 @@ nav a {
 }
 
 
-
-/*Media Query*/
+/*--------------Media Query---------------*/
 
 @media screen and (max-width: 600px) {
   .column.left {
     width: 100%;
+    height:100%;
   }
 
   .column.right {
     width: 100%;
+    height:100%;
   }
 
   .column.middle {
     width: 100%;
+    height:100%;
   }
 
   .column.half1 {
     width: 100%;
+    height:100%;
   }
 
   .column.half2 {
@@ -265,6 +288,7 @@ nav a {
 
   .column.half3 {
     width: 100%;
+    height:100%;
   }
 
 
@@ -300,14 +324,15 @@ nav a {
 }
 
 
-/* Accounts Sign In Page */
+/*--------------Account Sign in Page---------------*/
 
-/*
+
+
 .forms {
     background-color: #f2f2f2;
     padding: 20px;
 }
-*/
+
 
 input[type=text], select {
     width: 100%;
@@ -335,7 +360,8 @@ input[type=submit]:hover{
     background-color: #45a049;
 }
 
-/*Travel Page*/
+/*--------------Real Estate Page---------------*/
+
 
 .gallery1 {
   float:left;
@@ -366,9 +392,10 @@ div.desc {
     text-align: center;
 }
 
-/*menu information */
+/*--------------Menu Bar---------------*/
 
-    ul {
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -425,7 +452,8 @@ li.dropdown {
   display: block;
 }
 
-/*Slideshow Home Page
+/*--------------Slideshow---------------*/
+
 
 * {box-sizing:border-box}
 
@@ -436,17 +464,12 @@ li.dropdown {
   position: relative;
   margin: auto;
  font-size:.8em;
-  
-  
-  
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  
 }
 
 /* Next & previous buttons */
@@ -544,7 +567,8 @@ li.dropdown {
 }
 
 
-/*ABOUT PAGE LOGIN*/
+/*--------------Sign In Page---------------*/
+
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
