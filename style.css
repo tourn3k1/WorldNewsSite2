@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .body1 {
-  font-family:Georgia,Times, serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   max-width: 960px;
   margin:0;
   background-image: url(Images/travel1.png);
@@ -39,7 +39,18 @@
 .fas {
   color:rgb(219, 218, 218);
   text-shadow: 4px 4px #000000;
+  
 
+}
+
+.fas {
+  color:rgb(219, 218, 218);
+  text-shadow: 4px 4px #000000;
+
+}
+
+.fas_fa-dog {
+  border-color: red;
 }
 
 .head1 {
@@ -48,6 +59,8 @@
   font-size:60px;color:rgb(255, 255, 255);
   text-shadow: 4px 4px #000000;
   animation: mymove 1s;
+
+
 }
 
 .head2 {
