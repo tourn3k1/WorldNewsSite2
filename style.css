@@ -765,3 +765,23 @@ button:hover {
   .cancelbtn2, .signupbtn {
      width: 100%;
   }
+}
+
+.btn3 {
+
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: .8;
+
+  
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  right:0;
+  width: 200px;
+  z-index:1;
+  border-bottom: 2px solid red;
+}
