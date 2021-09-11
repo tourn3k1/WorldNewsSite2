@@ -788,7 +788,7 @@ button:hover {
   position: fixed;
   bottom: 0;
   right:0;
-  width: 200px;
+  width: 140px;
   z-index:1;
   border-bottom: 2px solid red;
 }
