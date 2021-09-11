@@ -67,6 +67,7 @@
   width: 960px;
   z-index:1;
   border-bottom: 2px solid red;
+  opacity: .7;
 }
 
 
@@ -768,15 +769,12 @@ button:hover {
 }
 
 .btn3 {
-
   color: white;
   padding: 10px 10px;
   border: none;
   cursor: pointer;
   width: 100%;
   opacity: .8;
-
-  
   background-color: #333;
   position: fixed;
   bottom: 0;
