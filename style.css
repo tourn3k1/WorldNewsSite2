@@ -5,8 +5,8 @@
   font-family: "Lucida Console", "Courier New", monospace;
   max-width: 960px;
   margin:0;
-  background-image: url(Images/travel1.png);
-  background-repeat: repeat;
+  background-image: url(Images/travel2.png);
+  background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
   opacity:.9;
