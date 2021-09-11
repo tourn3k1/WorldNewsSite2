@@ -6,10 +6,10 @@
   max-width: 960px;
   margin:0;
   background-image: url(Images/travel1.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;  
   background-size: cover;
-  opacity:.8;
+  opacity:.9;
 
 }
 
