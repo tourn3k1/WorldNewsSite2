@@ -61,11 +61,22 @@
   color:rgb(255, 255, 255);
 }
 
+.head3 {
+  text-shadow: 4px 4px #000000;
+  color:rgb(255, 255, 255);
+  float:right;
+  padding-top:.4em;
+  padding-right:1em;
+  font-size:1.5em;
+
+}
+
 .footer1 {
   float:center;
   /*position:absolute;*/
   text-shadow: 4px 4px #000000;
   color:rgb(219, 218, 218);
+
 }
 
 /*--------------Navigation Bar---------------*/
