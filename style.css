@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .body1 {
-  font-family:Verdana,Times, serif;
+  font-family:Georgia,Times, serif;
   max-width: 960px;
   margin:0;
   background-image: url(Images/travel1.png);
@@ -277,6 +277,11 @@ nav a {
 .mySlides:hover {
   transform: scale(1.1); 
 }
+
+.btn3:hover {
+  transform: scale(1.5); 
+}
+
 
 
 /*--------------Media Query---------------*/
