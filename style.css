@@ -9,7 +9,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
+  opacity:.8;
+
 }
+
 
 /*--------------Header/Footer---------------*/
 
@@ -22,7 +25,9 @@
     font-Size: 1.5em;
     border-bottom: 2px solid red;
     border-radius: 5px 5px 0px 0px ;
-    background-image: linear-gradient(to top, rgb(61, 61, 61), rgb(0, 0, 0))
+
+
+    /*background-image: linear-gradient(to top, rgb(61, 61, 61), rgb(0, 0, 0))*/
 }
 
 .footer {
@@ -37,21 +42,12 @@
 }
 
 .fas {
-  color:rgb(219, 218, 218);
+  color:rgb(255, 255, 255);
   text-shadow: 4px 4px #000000;
   
 
 }
 
-.fas {
-  color:rgb(219, 218, 218);
-  text-shadow: 4px 4px #000000;
-
-}
-
-.fas_fa-dog {
-  border-color: red;
-}
 
 .head1 {
   float:center;
@@ -65,7 +61,7 @@
 
 .head2 {
   text-shadow: 4px 4px #000000;
-  color:rgb(219, 218, 218);
+  color:rgb(255, 255, 255);
 }
 
 .footer1 {
@@ -85,7 +81,7 @@
   width: 960px;
   z-index:1;
   border-bottom: 2px solid red;
-  opacity: .7;
+  opacity: .8;
 }
 
 
