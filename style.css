@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-  opacity:.92;
+  opacity:.95;
 
 }
 
@@ -25,9 +25,7 @@
     font-Size: 1.5em;
     border-bottom: 2px solid red;
     border-radius: 5px 5px 0px 0px ;
-
-
-    /*background-image: linear-gradient(to top, rgb(61, 61, 61), rgb(0, 0, 0))*/
+    background-image: linear-gradient(to top, rgb(32, 32, 32), rgb(0, 0, 0))
 }
 
 .footer {
@@ -38,7 +36,7 @@
   font-size:1.2em;
   border-top: 2px solid red;
   border-radius: 0px 0px 5px 5px ;
-  background-image: linear-gradient(to top, rgb(61, 61, 61), rgb(0, 0, 0))
+  background-image: linear-gradient(to top, rgb(31, 31, 31), rgb(0, 0, 0))
 }
 
 .fas {
