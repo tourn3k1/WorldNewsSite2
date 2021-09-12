@@ -29,14 +29,18 @@
 }
 
 .footer {
+  float:left;
+  position:relative;
+  display: table-cell;
   color: white;
-  background-color: #333;
+  background-color: rgb(20, 20, 20);
   text-align: center;
-  padding: 2px;
-  font-size:1.2em;
+  padding:1em;
   border-top: 2px solid red;
   border-radius: 0px 0px 5px 5px ;
-  background-image: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20))}
+  width:960px;
+}
+
 
 .fas {
   color:rgb(255, 255, 255);
@@ -71,13 +75,6 @@
 
 }
 
-.footer1 {
-  float:center;
-  /*position:absolute;*/
-  text-shadow: 4px 4px #000000;
-  color:rgb(219, 218, 218);
-
-}
 
 /*--------------Navigation Bar---------------*/
 
@@ -135,18 +132,27 @@ nav a {
   position: relative;
   background: rgb(253, 253, 253);
   font-size:large;
-
   color:rgb(63, 63, 63);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  padding:1em;
 }
+
+.column2 {
+  float:left;
+  position: relative;
+  background: rgb(253, 253, 253);
+  font-size:large;
+  color:rgb(63, 63, 63);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ padding:1em;
+}
+
 
 .column1 {
   float:left;
   position: relative;
   background: rgb(253, 253, 253);
   color:rgb(63, 63, 63);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  padding:1em;
 }
 
@@ -216,6 +222,65 @@ nav a {
   height: 40em; 
   overflow: hidden;
   text-overflow: clip; 
+}
+
+
+
+/*
+float:left;
+position:relative;
+display: table-cell;
+color: white;
+background-color: #333;
+text-align: center;
+padding:1em;
+font-size:.7em;
+border-top: 2px solid red;
+border-radius: 0px 0px 5px 5px ;
+background-image: linear-gradient(to top, rgb(20, 20, 20), rgb(20, 20, 20))
+*/
+
+.column.left1 {
+
+ 
+  padding: 16px;
+  width: 29%;
+  margin:3px;
+  text-align: center;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  height:13em; 
+  overflow: hidden;
+  text-overflow: clip; 
+  font-size:1em;
+}
+
+.column.middle1 {
+ 
+  padding: 16px;
+  width: 39%;
+  margin:3px;
+  text-align: center;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  height:13em; 
+  overflow: hidden;
+  text-overflow: clip; 
+  font-size:1em;
+}
+
+.column.right1 {
+
+  padding: 16px;
+  width: 29%;
+  margin:3px;
+  text-align: center;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  height:13em; 
+  overflow: hidden;
+  text-overflow: clip; 
+  font-size:1em;
 }
 
 .column.half1 {
@@ -320,6 +385,21 @@ nav a {
     height:100%;
   }
 
+  .column.left1 {
+    width: 100%;
+    height:100%;
+  }
+
+  .column.right1 {
+    width: 100%;
+    height:100%;
+  }
+
+  .column.middle1 {
+    width: 100%;
+    height:100%;
+  }
+
   .column.half1 {
     width: 100%;
     height:100%;
@@ -359,6 +439,10 @@ nav a {
   }
 
   .navbar {
+    width:100%;
+  }
+
+  .footer {
     width:100%;
   }
 
