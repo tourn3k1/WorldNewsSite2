@@ -21,7 +21,7 @@
     color:white;
     background-color:black;
     text-align: center;
-    padding-top:50px;
+    padding-top:60px;
     font-Size: 1.5em;
     border-bottom: 2px solid red;
     border-radius: 5px 5px 0px 0px ;
@@ -90,6 +90,7 @@
   z-index:1;
   border-bottom: 2px solid red;
   opacity: .9;
+  Font-Size:1.2em;
 }
 
 
@@ -823,3 +824,22 @@ button:hover {
   z-index:1;
   border-bottom: 2px solid red;
 }
+
+/* 
+.footer-sub-box {
+  text-align: center;
+  width: 33%;
+  height: 200px;
+  padding-top: 10px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.font3 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(128, 128, 128);
+  opacity: 90%;
+  font-size: 80%;
+  text-align: left;
+  text-transform: capitalize;
+} */
