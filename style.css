@@ -29,19 +29,24 @@
 }
 
 .footer {
-  float:left;
-  position:relative;
-  display: table-cell;
   color: white;
-  background-color: rgb(20, 20, 20);
+  background-color: #333;
   text-align: center;
-  padding:0;
+  padding: 2px;
+  font-size:1.2em;
   border-top: 2px solid red;
   border-radius: 0px 0px 5px 5px ;
- width:60em;
+  background-image: linear-gradient(to top, rgb(20, 20, 20), rgba(70, 70, 70, 1))
 }
 
-
+.footer1 {
+  float:center;
+  /*position:absolute;*/
+  text-shadow: 4px 4px #000000;
+  color:rgb(219, 218, 218);
+  font-size:.7em;
+  padding:2px;
+}
 
 
 .fas {
@@ -232,7 +237,7 @@ nav a {
   float: left;
   display: table-cell;
   padding: 5px;
-  width: 50%;
+  width: 100%;
   margin:0px;
   text-align: center;
   color: rgb(201, 201, 201);
@@ -247,7 +252,7 @@ nav a {
   float: left;
   display: table-cell;
   padding: 5px;
-  width: 50%;
+  width: 100%;
   margin:0px;
   text-align: center;
   color: rgb(201, 201, 201);
@@ -448,6 +453,13 @@ nav a {
 
 }
 
+
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 
 /*--------------Account Sign in Page---------------*/
 
