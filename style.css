@@ -38,7 +38,7 @@
   padding:0;
   border-top: 2px solid red;
   border-radius: 0px 0px 5px 5px ;
- width:960px;
+ width:60em;
 }
 
 
@@ -687,12 +687,12 @@ li.dropdown {
 }
 
 /*Slideshow home page(above)*/
-/* 
+
 .row:after {
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 
 /*--------------Sign In Page---------------*/
