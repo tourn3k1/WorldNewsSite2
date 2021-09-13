@@ -38,8 +38,10 @@
   padding:0;
   border-top: 2px solid red;
   border-radius: 0px 0px 5px 5px ;
-  width:60em;
+ width:960px;
 }
+
+
 
 
 .fas {
@@ -224,11 +226,13 @@ nav a {
   text-overflow: clip; 
 }
 
+
+
 .column.left1 {
   float: left;
   display: table-cell;
   padding: 5px;
-  width: 29%;
+  width: 50%;
   margin:0px;
   text-align: center;
   color: rgb(201, 201, 201);
@@ -243,7 +247,7 @@ nav a {
   float: left;
   display: table-cell;
   padding: 5px;
-  width: 39%;
+  width: 50%;
   margin:0px;
   text-align: center;
   color: rgb(201, 201, 201);
@@ -683,12 +687,12 @@ li.dropdown {
 }
 
 /*Slideshow home page(above)*/
-
+/* 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 
 /*--------------Sign In Page---------------*/
