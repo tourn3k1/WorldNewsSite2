@@ -38,7 +38,7 @@
   padding:0;
   border-top: 2px solid red;
   border-radius: 0px 0px 5px 5px ;
-  width:960px;
+  width:60em;
 }
 
 
@@ -225,11 +225,13 @@ nav a {
 }
 
 .column.left1 {
+  float: left;
+  display: table-cell;
   padding: 5px;
   width: 29%;
   margin:0px;
   text-align: center;
-  color: rgb(140, 140, 140);
+  color: rgb(201, 201, 201);
   background-color: rgb(20, 20, 20);
   height:10em; 
   overflow: hidden;
@@ -238,11 +240,13 @@ nav a {
 }
 
 .column.middle1 {
+  float: left;
+  display: table-cell;
   padding: 5px;
   width: 39%;
   margin:0px;
   text-align: center;
-  color: rgb(140, 140, 140);
+  color: rgb(201, 201, 201);
   background-color: rgb(20, 20, 20);
   height:10em; 
   overflow: hidden;
@@ -251,11 +255,13 @@ nav a {
 }
 
 .column.right1 {
+  float: left;
+  display: table-cell;
   padding: 5px;
   width: 29%;
   margin:0px;
   text-align: center;
-  color: rgb(140, 140, 140);
+  color: rgb(201, 201, 201);
   background-color: rgb(20, 20, 20);
   height:10em; 
   overflow: hidden;
@@ -425,6 +431,8 @@ nav a {
   .footer {
     width:100%;
   }
+
+  
 
 @keyframes mymove {
   50% {transform: rotate(360deg);}
@@ -889,21 +897,3 @@ button:hover {
   border-bottom: 2px solid red;
 }
 
-/* 
-.footer-sub-box {
-  text-align: center;
-  width: 33%;
-  height: 200px;
-  padding-top: 10px;
-  background-color: white;
-  color: rgb(0, 0, 0);
-}
-
-.font3 {
-  font-family: Helvetica, Arial, sans-serif;
-  color: rgb(128, 128, 128);
-  opacity: 90%;
-  font-size: 80%;
-  text-align: left;
-  text-transform: capitalize;
-} */
