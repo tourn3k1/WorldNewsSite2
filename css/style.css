@@ -230,6 +230,7 @@ nav a {
   width: 66%;
   border: 1px solid rgb(190, 190, 190);
   margin:2px;
+  text-align: center;
   border-radius: 5px 5px 5px 5px ;
   height: 40em; 
   overflow: hidden;
