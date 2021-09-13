@@ -5,11 +5,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script
-      src="main.js"
-      src="https://kit.fontawesome.com/321b1641ed.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/321b1641ed.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </head>
 
 <body class="body1">
@@ -93,7 +90,6 @@
 
 <!--Slideshow / Carousel of major headlines-->
 
-
     <div class="slideshow-container" >
     <section class="mySlides fade">
       <div class="numbertext">1 / 3</div>
@@ -134,25 +130,7 @@
 <script>
 var slideIndex = 0;
 showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
-}
 </script>
-
 
 <!--Column headlines-->
 
