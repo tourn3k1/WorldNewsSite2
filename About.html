@@ -35,7 +35,7 @@
       <nav1 class="dropdown-content">
         <a href="worldnews.html">World</a>
         <a href="localnews.html">local</a>
-        <a href="localnews.html">Markets</a>
+        <a href="market.html">Market</a>
         <a href="login.html">Account</a>
         <a href="About.html">About Us</a>
       </nav1>
@@ -65,12 +65,12 @@
     </li>
     
   <li class="dropdown">
-      <a href="nationalnews.html">Market</a>
+      <a href="market.html">Market</a>
     <nav1 class="dropdown-content">
-      <a href="nationalnews.html">North LB</a>
-      <a href="nationalnews.html">East LB</a>
-      <a href="nationalnews.html">West LB</a>
-      <a href="nationalnews.html">Downtown LB</a>
+      <a href="market.html">North LB</a>
+      <a href="market.html">East LB</a>
+      <a href="market.html">West LB</a>
+      <a href="market.html">Downtown LB</a>
     </nav1>
   </li>
   
@@ -121,39 +121,36 @@
 
 </Main>
 
-<!-- </div> -->
 
 <footer>
+  <section class= "footer">
+      <section class="column left1">
+        <h3>Company Information</h3>
+       About Us<br>
+        Team<br>
+        Partners<br>
+        Careers
+        </section>
+    
+        <section class="column middle1">
+          <h3>Hours of Operation</h3>
+        Mon-Fri: 9am-5pm<br>
+          Sat-Sun: Closed<br>
+        </section>
+    
+        <section class="column right1">
+          <h3>Local Time(PST)</h3>
+          <body onload="startTime()" >
+            <div id="txt">
+            </div>
+        </section>
+    </section>
 
-  <div class ="footer footer1">
-    <h2>Footer</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
-  <body onload="startTime()" >
-    <p>PST
-    <div id="txt"></div>
-    </p>
-  </div>
-  
-  
-    <script>
-      function startTime() {
-        const today = new Date();
-        let h = today.getHours();
-        let m = today.getMinutes();
-        let s = today.getSeconds();
-        m = checkTime(m);
-        s = checkTime(s);
-        document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-        setTimeout(startTime, 1000);
-      }
-      
-      function checkTime(i) {
-        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-        return i;
-      }
-      </script>
-  
-  </footer>
-  
+<a href="signup.html">
+
+<button3 class="btn3">Sign Up Here!</button>
+</a>
+
+</footer>
 
 </body>
