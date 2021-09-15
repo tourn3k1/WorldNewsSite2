@@ -3,7 +3,8 @@
 }
 .body1 {
   font-family: "Lucida Console", "Courier New", monospace;
-  /* max-width: 960px; */
+  max-width: 960px; 
+  align: center;
   margin:0;
   background-image: url(images/travel2.png);
   background-repeat: no-repeat;
